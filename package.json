@@ -2,12 +2,15 @@
   "name": "computed-demo",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node ./ts/002-Omit.ts"
+    "start": "webpack-dev-server --mode development"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
 }
